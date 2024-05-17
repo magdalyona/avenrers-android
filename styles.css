@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* * {
+padding: 0;
+margin: 0;} обнуление всех стилей  */
+
+body {
+    background-color:#f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+  
+
+ font: normal 16px "Roboto", sans-serif;
+}
+  
+.osnova {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .osnova {
+        display: block;
+        text-align: center;
+    }
+}
+
+.ava-text {
+    margin-left: 40px;
+}
+
+.ava-text h4 {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0f141e;
+    text-decoration: none;
+}
+
+a:hover {
+/* text-decoration: line-through; */
+text-decoration: underline;
+}
+
+
+
+
+
+a:active {
+    color: #a50000;
+}
+
+a:visited {
+    color:gray
+}
+
+.capitan {
+    width: 450px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.osnova p {https://okko.tv/movie/the-avengers-31078
+    color: #5b416d;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+   /* text-transform: capitalize;*/
+   /* letter-spacing: 1px;*/
+   /* word-spacing: 42px  */
+}
+
+/* Bax Model */
+.container {
+max-width: 750px;
+margin: auto;
+padding-top: 30px;
+}
+
+/*.social {
+    background: #006106;
+    padding: 0px;
+
+    border: 5px solid  red;
+    margin: 5px ;
+} */
+
+
+/*.box-model > div {
+    float: left;
+    background: #0f141e;
+    border: 4px solid red;
+    height: 200px;
+    width: 22%;
+
+    box-sizing: border-box;
+
+} */
+
+
+
+h1 {
+    color: #460061	;
+
+}
+
+h2 {
+    color: #00991f;
+}
+
+h3 {
+    color: #a50000;
+}
+
+.bg-yellow {
+background: #fff9dc;
+}
+
+.bg-red {
+background: #e5ffe7;
+}
+
+.bg-green {
+background: #ffe5e5;
+}
+
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid #ccc; */
+}
+/* .card h3 {
+    margin-bottom: 10px;
+} */
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+    /* list-style: none; */ убрать нумерацию с таблиц
+}
+
+.list li {
+    color:#49423d
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+/* .table .temp {
+    color: #86898f;
+}  */  
+
+/* .table td:nth-child(2) {
+    color: #460061 ;
+}
+
+.table tr:nth-child(even) {
+    background: #00991f;
+} */  
+
+.contact h3 {
+    text-align: center;
+} 
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+/* .form-group {
+display: flex;
+margin-bottom: 20px;
+width: 50%;
+margin-right: 20px;
+} */
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #ccc;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+
+
+/* Possition */
+
+/* .possition {
+position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+
+.box {
+    /* position: absolute; */
+                   /* position: fixed; */
+    /* bottom: 50px; */
+    /* top: 0px;
+    left: 0px; */
+
+    /* border-radius: 50%; */ 
+
+    
+
+    /* bottom: 150px;
+    right: ;
+    top: ;
+    left: ; */ 
+    /* width: 50px; */
+
+    /* width: 100%;
+    height: 50px;
+    background: lightcoral; */
+
+} */
